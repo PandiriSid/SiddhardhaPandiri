@@ -109,6 +109,29 @@
   transform: scale(1.1);
 }
 
+/* General link styling */
+.align-self-stretch.box {
+    transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+/* Change background and scale on hover */
+.align-self-stretch.box:hover {
+    background-color: #f0f0f0; /* Change this to your preferred highlight color */
+    transform: translateY(-5px);
+}
+
+/* Highlight icon on hover */
+.align-self-stretch.box:hover .icon span {
+    color: #ff7f50; /* Change this to your preferred icon highlight color */
+}
+
+/* Example: Change icon color to original state */
+.icon span {
+    color: #333; /* Default icon color */
+    transition: color 0.2s ease;
+}
+
+
 
 </style>
 
